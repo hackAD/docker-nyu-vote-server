@@ -3,7 +3,8 @@ The hackAD NYU Vote server
 
 The entrypoint for the hackAD NYU Vote server
 
-### To Install:
+To Install:
+==========
 
 ```
 # Start submodules
@@ -21,8 +22,15 @@ curl https://raw.githubusercontent.com/lingz/Scripts/master/install/fig.sh | bas
 
 ```
 
-### To rebuild after changing files:
+To update after sub-projects have changed:
+==============================
 
+```
+git submodule foreach git pull
+```
+
+To rebuild after changing files:
+==============================
 
 ```
 fig build

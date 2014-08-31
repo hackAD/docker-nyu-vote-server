@@ -1,0 +1,6 @@
+[submodule "nginx"]
+	path = nginx
+	url = https://github.com/hackAD/docker-nyu-vote-nginx.git
+[submodule "nyu-vote"]
+	path = nyu-vote
+	url = https://github.com/hackAD/nyu-vote.git
