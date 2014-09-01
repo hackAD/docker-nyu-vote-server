@@ -3,26 +3,27 @@ The hackAD NYU Vote server
 
 The entrypoint for the hackAD NYU Vote server
 
-To Install
-==========
+## To Install
+
+#### Start submodules
 
 ```
-# Start submodules
 git submodule init
 git submodule update
-
-# install docker
-curl https://raw.githubusercontent.com/lingz/Scripts/master/install/docker.sh | bash
-
-# install fig
-curl https://raw.githubusercontent.com/lingz/Scripts/master/install/fig.sh | bash
-
-# Follow setup instructions inside the git submodules
-...
 ```
 
-To Configure
-===========
+#### Install Docker and Fig
+
+```
+curl https://raw.githubusercontent.com/lingz/Scripts/master/install/docker.sh | bash
+curl https://raw.githubusercontent.com/lingz/Scripts/master/install/fig.sh | bash
+```
+
+#### Follow setup instructions inside the git submodules
+
+See submodule repos
+
+## To Configure
 
 Copy the fig yml file and fill in the environment variables.
 You need to specify a Google API ID and Key (for o-auth logins), as well as optionally
@@ -33,22 +34,20 @@ cp fig.yml.example fig.yml
 nano fig.yml
 ```
 
-To update after sub-projects have changed
-==============================
+## To update after sub-projects have changed
 
 ```
 git submodule foreach git pull
 ```
 
-To rebuild after changing files
-==============================
+## To rebuild after changing files
 
 ```
 fig build
 ```
 
-To start
-=======
+##To start
+
 ```
 fig up
 ```
