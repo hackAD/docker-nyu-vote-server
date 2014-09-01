@@ -11,15 +11,14 @@ To Install
 git submodule init
 git submodule update
 
-# Follow setup instructions inside the git submodules
-...
-
 # install docker
 curl https://raw.githubusercontent.com/lingz/Scripts/master/install/docker.sh | bash
 
 # install fig
 curl https://raw.githubusercontent.com/lingz/Scripts/master/install/fig.sh | bash
 
+# Follow setup instructions inside the git submodules
+...
 ```
 
 To Configure
