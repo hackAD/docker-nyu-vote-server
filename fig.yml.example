@@ -10,7 +10,8 @@ proxy:
 nyuVote:
   build: nyu-vote/
   environment:
-    - MONGO_URI=
+    - ROOT_URL=https://localhost
+    - MONGO_URL=
     - googleId=
     - googleSecret=
   expose:
