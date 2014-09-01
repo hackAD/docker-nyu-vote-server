@@ -3,7 +3,7 @@ The hackAD NYU Vote server
 
 The entrypoint for the hackAD NYU Vote server
 
-To Install:
+To Install
 ==========
 
 ```
@@ -22,21 +22,34 @@ curl https://raw.githubusercontent.com/lingz/Scripts/master/install/fig.sh | bas
 
 ```
 
-To update after sub-projects have changed:
+To Configure
+===========
+
+Copy the fig yml file and fill in the environment variables.
+You need to specify a Google API ID and Key (for o-auth logins), as well as optionally
+a MONGO URI if you want to use an external databse.
+
+```
+cp fig.yml.example fig.yml
+nano fig.yml
+```
+
+To update after sub-projects have changed
 ==============================
 
 ```
 git submodule foreach git pull
 ```
 
-To rebuild after changing files:
+To rebuild after changing files
 ==============================
 
 ```
 fig build
 ```
 
-### To start:
+To start
+=======
 ```
 fig up
 ```

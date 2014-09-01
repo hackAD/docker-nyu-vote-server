@@ -9,5 +9,9 @@ proxy:
     - nginx/ssl/:/etc/nginx/ssl
 nyuVote:
   build: nyu-vote/
+  environment:
+    - MONGO_URI=
+    - googleId=
+    - googleSecret=
   expose:
     - "3000"
