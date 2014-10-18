@@ -3,6 +3,18 @@ The hackAD NYU Vote server
 
 The entrypoint for the hackAD NYU Vote server
 
+NYU Vote Code
+=============
+
+The repo for the actual NYU Vote code can be found here:
+https://github.com/hackAD/nyu-vote
+
+NYU Vote User Documentation
+===========================
+
+The NYU Vote users documentation can be found here:
+https://docs.google.com/document/d/18qsoORoz7B6R_f45JJMU8bvnA1ux5EhjHrnW2LpV8sQ/edit?usp=sharing
+
 ## To Install
 
 #### Start submodules
