@@ -27,7 +27,7 @@ git submodule update
 #### Install Docker and Fig
 
 ```
-curl https://raw.githubusercontent.com/lingz/Scripts/master/install/docker.sh | bash
+curl curl -sSL https://get.docker.com/ | sh
 curl https://raw.githubusercontent.com/lingz/Scripts/master/install/fig.sh | bash
 ```
 
