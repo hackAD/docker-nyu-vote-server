@@ -43,7 +43,9 @@ First you need to make sure the reverse proxy is correctly configured. Checkout 
 
 You also need a Google Apps token. Be sure your redirect URLs are correctly set. Here is an example:
 
-![Example](http://i.imgur.com/jagLdyG.png)
+![Example](http://i.imgur.com/njeMN9w.png)
+
+Note that raw IP Addresses are not allowed in the above, so if you want to use a remote dev server, either use register a domain name or use ngrok as a reverse tunnel.
 
 Copy the fig yml file and fill in the environment variables.
 You need to specify a Google API ID and Key (for o-auth logins), as well as optionally
