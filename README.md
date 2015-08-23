@@ -37,6 +37,14 @@ See submodule repos
 
 ## To Configure
 
+First you need to make sure the reverse proxy is correctly configured. Checkout the README at this link for instructions:
+
+[docker-nyu-vote-nginx](https://github.com/hackAD/docker-nyu-vote-nginx)
+
+You also need a Google Apps token. Be sure your redirect URLs are correctly set. Here is an example:
+
+![Example](http://i.imgur.com/jagLdyG.png)
+
 Copy the fig yml file and fill in the environment variables.
 You need to specify a Google API ID and Key (for o-auth logins), as well as optionally
 a MONGO URI if you want to use an external databse.
